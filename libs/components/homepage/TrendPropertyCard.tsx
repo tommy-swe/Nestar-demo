@@ -6,12 +6,12 @@ import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 
 const TrendPropertyCard = () => {
   return (
-    <Stack className={"top-card-box"}>
+    <Stack className={"trend-card-box"}>
       <Box
         className={"card-img"}
         style={{ backgroundImage: `url("/img/banner/types/apartment.webp")` }}
       >
-        <div>$420000</div>
+        <div className={"price"}>$420000</div>
       </Box>
       <Box className={"info"}>
         <strong className={"title"}> Kingston Buildings</strong>
@@ -37,9 +37,9 @@ const TrendPropertyCard = () => {
             <IconButton color={"default"}>
               <RemoveRedEyeIcon />
             </IconButton>
-            <Typography className="view-cnt">120</Typography>
+            <Typography className="view-cnt">250</Typography>
             <IconButton color={"default"}>
-              <FavoriteIcon />
+              <FavoriteIcon style={{ color: "red" }} />
             </IconButton>
             <Typography className="view-cnt">100</Typography>
           </div>

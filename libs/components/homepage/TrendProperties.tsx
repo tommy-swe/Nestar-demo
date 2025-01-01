@@ -28,7 +28,7 @@ const TrendProperties = () => {
         </Stack>
         <Stack className={"card-box"}>
           {trendProperties.length === 0 ? (
-            <Box className={"empty-list"}>No properties found</Box>
+            <Box className={"empty-list"}>Trends Empty</Box>
           ) : (
             <Swiper
               className={"trend-property-swiper"}
@@ -46,7 +46,7 @@ const TrendProperties = () => {
               {trendProperties.map((property, index) => {
                 return (
                   <SwiperSlide key={index} className={"trend-property-slide"}>
-                    <TrendProperties />
+                    <TrendPropertyCard />
                   </SwiperSlide>
                 );
               })}

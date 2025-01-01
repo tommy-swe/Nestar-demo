@@ -3,6 +3,7 @@ import { Box, Stack, Divider, Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
+import TopProperties from "./TopProperties";
 
 const TopPropertyCard = () => {
   return (
@@ -11,14 +12,14 @@ const TopPropertyCard = () => {
         className={"card-img"}
         style={{ backgroundImage: `url("/img/banner/types/apartment.webp")` }}
       >
-        <div>$420000</div>
+        <div className={"price"}>$420000</div>
       </Box>
       <Box className={"info"}>
         <strong className={"title"}> Run Will Buildings</strong>
         <p className={"desc"}>Seoul Gangnam Apartments</p>
         <div className={"option"}>
           <div>
-            <img src="/img/icons/room.svg" alt="" />
+            <img src="/img/icons/bed.svg" alt="" />
             <span>3 bed</span>
           </div>
           <div>
@@ -37,11 +38,11 @@ const TopPropertyCard = () => {
             <IconButton color={"default"}>
               <RemoveRedEyeIcon />
             </IconButton>
-            <Typography className="view-cnt">120</Typography>
+            <Typography className="view-cnt">130</Typography>
             <IconButton color={"default"}>
-              <FavoriteIcon />
+              <FavoriteIcon style={{ color: "red" }} />
             </IconButton>
-            <Typography className="view-cnt">200</Typography>
+            <Typography className="view-cnt">90</Typography>
           </div>
         </div>
       </Box>

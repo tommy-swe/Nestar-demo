@@ -14,10 +14,10 @@ const Home: NextPage = () => {
   return (
     <Stack className={"home-page"}>
       <TrendProperties />
-      {/* <PopularProperties />
+      <PopularProperties />
       <Advertisement />
       <TopProperties />
-      <TopAgents /> */}
+      <TopAgents />
     </Stack>
   );
 };
