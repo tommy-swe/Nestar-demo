@@ -17,7 +17,7 @@ const TopPropertyCard = () => {
       <Box className={"info"}>
         <strong className={"title"}> Run Will Buildings</strong>
         <p className={"desc"}>Seoul Gangnam Apartments</p>
-        <div className={"option"}>
+        <div className={"options"}>
           <div>
             <img src="/img/icons/bed.svg" alt="" />
             <span>3 bed</span>

@@ -16,7 +16,7 @@ const TrendPropertyCard = () => {
       <Box className={"info"}>
         <strong className={"title"}> Kingston Buildings</strong>
         <p className={"desc"}>This is Super view Apartments</p>
-        <div className={"option"}>
+        <div className={"options"}>
           <div>
             <img src="/img/icons/room.svg" alt="" />
             <span>2 bed</span>
