@@ -5,10 +5,9 @@ const TopAgentCard = () => {
   return (
     <Stack className="top-agent-card">
       <Box
+        component={"img"}
         className={"card-img"}
-        style={{
-          backgroundImage: `url("/img/profile/agentTop.webp")`,
-        }}
+        src="/img/profile/agentTop.webp"
       ></Box>
       <Typography className="agent-name">
         <strong>Martin</strong>
