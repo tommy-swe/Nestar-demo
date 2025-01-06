@@ -71,7 +71,7 @@ const Filter = () => {
       </Stack>
       <Stack className={"find-your-home"} mb={"30px"}>
         <Typography className={"title"}>Property Type </Typography>
-        {["APARTMENT", "HOUSE", "VILA", "KVARTIRA"].map((type: string) => (
+        {["APARTMENT", "HOUSE", "VILLA", "ONEROOM"].map((type: string) => (
           <Stack className={"input-box"} key={type}>
             <Checkbox
               id={type}
