@@ -3,8 +3,8 @@ import { NextPage } from "next";
 import { Box, Button, Pagination, Stack, Typography } from "@mui/material";
 import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
 import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownRounded";
-import { Filter } from "@mui/icons-material";
 import PropertyCard from "@/libs/components/property/PropertyCard";
+import Filter from "@/libs/components/property/Filter";
 
 const PropertyList: NextPage = () => {
   const [properties, setProperties] = useState<number[]>([1, 2, 3, 4, 5, 6]);
@@ -28,8 +28,8 @@ const PropertyList: NextPage = () => {
                 return <PropertyCard key={index} />;
               })}
             </Stack>
-            <Stack className={"pagination-config"}>
-              <Stack className={"pagination-box"}>
+            <Stack className="pagination-config">
+              <Stack className="pagination-box">
                 <Pagination
                   page={1}
                   count={5}
