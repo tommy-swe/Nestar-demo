@@ -11,6 +11,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
+    "@apollo/client": "^3.5.10",
+    "graphql": "^15.5.0",
     "next": "14.2.22",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
