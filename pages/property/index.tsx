@@ -49,15 +49,9 @@ const PropertyList: NextPage = () => {
             </Stack>
           </Stack>
         </Stack>
-<<<<<<< HEAD
-      </Stack>
-    </div>
-  );
-=======
       </div>
     );
   }
->>>>>>> master
 };
 
 export default withLayoutBasic(PropertyList);

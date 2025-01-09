@@ -13,11 +13,7 @@ import {
   Checkbox,
 } from "@mui/material";
 import RefreshIcon from "@mui/icons-material/Refresh";
-<<<<<<< HEAD
-import { propertySquare } from "../config";
-=======
 import { propertySquare } from "../../config";
->>>>>>> master
 
 const Filter = () => {
   const [searchText, setSearchText] = useState<string>("");
